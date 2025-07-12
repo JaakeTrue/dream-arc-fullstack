@@ -1,0 +1,12 @@
+{
+  "name": "dream-arc-fullstack",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "concurrently \"cd backend && npm run dev\" \"npm run dev\"",
+    "build": "cd backend && npm run build && npm run build",
+    "start": "concurrently \"cd backend && npm start\" \"npm start\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

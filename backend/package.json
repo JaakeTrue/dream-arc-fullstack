@@ -1,0 +1,21 @@
+{
+  "name": "dream-arc-fullstack",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "concurrently \"cd backend 
+    "build": "cd backend && npm run build && npm run build",
+    "start": "concurrently \"cd backend 
+Unknown command: "start""
+
+
+Did you mean one of these?
+  npm star # Mark your favorite packages
+  npm stars # View packages marked as favorites
+  npm start # Start a package
+To see a list of supported npm commands, run:
+  npm help
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

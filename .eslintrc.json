@@ -1,0 +1,7 @@
+{
+  "extends": [
+    "next",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "plugins": ["vitest"]
+}
